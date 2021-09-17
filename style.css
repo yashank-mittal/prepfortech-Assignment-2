@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --div-height: 80vh;
+    --bg-size: cover;
+}
+
+
+
+.center_div{
+    width: 85vw;
+    min-height: 20px;
+    margin: 3vh 5vw;
+     
+}
+
+.center_div .row{
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+}
+
+.center_div .top_div{
+    height: calc(var(--div-height) - 1vh);
+    background-size: var(--bg-size);
+    border-radius: 7px 0px 0px 7px;
+}
+.bottom_first_div{
+    height: calc(var(--div-height) - 50vh);
+    background-image: url('https://a0.muscache.com/im/pictures/6dc21fa1-df07-4d7d-ab47-811cf1ec535d.jpg?im_w=960');
+    background-size: var(--bg-size);
+    border-radius: 0px 7px 7px 0px;
+}
+.center_div .bottom_sec_div{
+    height: calc(var(--div-height) - 30vh);
+    background-size: var(--bg-size);
+    border-radius: 0px 0px 7px 0px;
+}
+
+.center_div .top_div:first-child{
+    background-image: url('https://a0.muscache.com/im/pictures/2ca8d4e7-b846-461e-b7fb-a3eda00babc8.jpg?im_w=720');
+}
+
+.center_div .top_div:last-child{
+    background-image: url('https://a0.muscache.com/im/pictures/2ca8d4e7-b846-461e-b7fb-a3eda00babc8.jpg?im_w=720');
+}
+
+.center_div .bottom_sec_div:first-child{
+    background-image: url('https://a0.muscache.com/im/pictures/f40401dc-6377-4298-b11a-6c848f3ac2ae.jpg?im_w=720');
+}
+
+.center_div .bottom_sec_div:last-child{
+    background-image: url('https://a0.muscache.com/im/pictures/64e9a754-573b-4f91-ab62-d733cbe5c233.jpg?im_w=1200');
+}
+.text-cen{
+    text-align: center;
+}
+
+.second-container{
+    margin-left: 5rem;
+}
+
+.line{
+    margin-right: 34rem;
+    margin-left: 5rem;
+}
+
+.thi-container-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.third-conrtainer{
+    margin-left: 5rem;
+    display: flex;
+}
+
+.fourth-conrtainer{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+
+.fiv-conrtainer{
+    margin-left: 5rem;
+}
+
+.fiv-conrtainer .fi-img{
+    height: 13rem;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+
+.fi-head{
+    margin-top: 9px;
+}
+
+.six-container{
+    width: 25vw;
+    position: inherit;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:
+        5px 5px 5px rgba(0, 0, 0, .5),
+        5px 5px 5px rgba(0, 0, 0, .5)
+    ;
+}
+
+.in-six{
+    display: flex;
+    justify-content: space-around;
+}
+
+.in-six2{
+    width: 22vw;
+    border: 1px solid black;
+    margin-left: 1.3rem;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+}
+
+.inside-six2{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.but{
+    width: 22vw;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 2rem;
+}
+
